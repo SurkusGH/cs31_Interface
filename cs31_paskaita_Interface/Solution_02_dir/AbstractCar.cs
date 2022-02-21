@@ -1,15 +1,19 @@
 ﻿using cs31_paskaita_Interface.Solution_01;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace cs31_paskaita_Interface
 {
-    public class Car : IVehicle
+    // (1) Paverskite Car klasę abstrakčia ir pridėkite property string Model.
+    public abstract class AbstractCar // <-- sukuriu klasę, nes nenoriu, kad ankstensis sprendimas nustotų veikti.
     {
-        // Tada sukurkite klasę Car, kuri implementuos šį interface’ą ir taip pat turės properties string Model ir int Fuel.
-        public string Model { get; set; }
+        public string Model { get; set; } // <-- yra reikalavimas pridėti string Modėl. Bet jis yra ir ankstesnėje užduotyje?
         public int Fuel { get; set; }
 
-        public Car(string model, int fuel)
+        public AbstractCar(string model, int fuel)
         {
             Model = model;
             Fuel = fuel;
@@ -21,10 +25,10 @@ namespace cs31_paskaita_Interface
             Console.WriteLine($"Car model {Model} Cheking fuel:");
             if (Fuel > 0)
             {
-                Console.WriteLine($"Bake yra {Fuel} litrų degalų - nuvažiuojamas atstumas: {5*Fuel} KM");
+                Console.WriteLine($"Bake yra {Fuel} litrų degalų - nuvažiuojamas atstumas: {5 * Fuel} KM");
             }
 
-            if(Fuel == 0)
+            if (Fuel == 0)
             {
                 Console.WriteLine($"Bakas tušias");
             }
