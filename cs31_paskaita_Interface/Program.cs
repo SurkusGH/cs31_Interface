@@ -14,12 +14,7 @@ namespace cs31_paskaita_Interface
             pizzas.ForEach(pizzas => pizzas.Prepare());
             #endregion
 
+            Solution_01x.Solution_01x_Run(); // <-- Pilti negalima nei kad total bųtų daugiau nei 100, nei kad pilamas neigiamas skaičius
         }
-        // Sukurkite interface’ą pavadinimų IVehicle su metodais Drive ir Refuel(grąžinimo tipą galit pasirinkti patys ir
-        // tai kaip jį implementuosit, galite daryti ir su void)
-        // Tada sukurkite klasę Car, kuri implementuos šį interface’ą ir taip pat turės properties string Model ir int Fuel.
-        // Implementuokite reikalingus metodus, Drive() metodas turi patikrinti ar degalai nėra pasibaigę, jeigu ne, važiuoti galima.
-        // Refuel metodas turi patikrinti ar kiekis, kuriuo norima papildyti nėra minusinis(galite padaryti ir maksimalų degalų bako dydį, 
-        // bet pagalvokite, kaip tą funkcionalumą pernaudosite)
     }
 }
