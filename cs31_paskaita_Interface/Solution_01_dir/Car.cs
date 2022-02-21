@@ -1,8 +1,10 @@
 ﻿using cs31_paskaita_Interface.Solution_01;
 using System;
+using System.Collections.Generic;
 
 namespace cs31_paskaita_Interface
 {
+    // (!) Implement iComparer interface'ą ir kitiems automobilių tipams (taip suprantu Car) 
     public class Car : IVehicle
     {
         // Tada sukurkite klasę Car, kuri implementuos šį interface’ą ir taip pat turės properties string Model ir int Fuel.

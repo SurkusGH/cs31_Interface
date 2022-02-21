@@ -22,8 +22,9 @@ namespace cs31_paskaita_Interface
 
             #endregion
 
-            Solution_01x.Solution_01x_Run(); // <-- Pilti negalima nei kad total bųtų daugiau nei 100, nei kad pilamas neigiamas skaičius
-            Solution_02.Solution_02_run();
+            //Solution_01x.Solution_01_Run(); // <-- Pilti negalima nei kad total bųtų daugiau nei 100, nei kad pilamas neigiamas skaičius
+            //Solution_02.Solution_02_Run();
+            Solution_03.Solution_03_Run();
         }
     }
 }

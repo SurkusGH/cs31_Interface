@@ -15,7 +15,7 @@ namespace cs31_paskaita_Interface
         // Refuel metodas turi patikrinti ar kiekis, kuriuo norima papildyti nėra minusinis
         // (galite padaryti ir maksimalų degalų bako dydį, bet pagalvokite, kaip tą funkcionalumą pernaudosite)
 
-        public static void Solution_01x_Run()
+        public static void Solution_01_Run()
         {
 
             var car1 = new Car("Golf", 20);

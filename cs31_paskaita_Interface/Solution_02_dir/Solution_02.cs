@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace cs31_paskaita_Interface
 {
@@ -13,7 +10,7 @@ namespace cs31_paskaita_Interface
         // (1) Paverskite Car klasę abstrakčia ir pridėkite property string Model.
         // (2) Sukurkite klasę BmwCar, kuri paveldės iš klasės Car ir turės savo property Bool IsXdrive.
         // (3) Sukurkite klasę AudiCar, kuri paveldės iš klasės Car ir turės savo property bool IsQuattro.
-        public static void Solution_02_run()
+        public static void Solution_02_Run()
         {
             var bmwCarsList = new List<BmwCar> { new BmwCar(true, "BMW Z1", 10), new BmwCar(false, "BMW A1", 10), new BmwCar(true, "BMW X5", 10) };
             var bmwComparer = new BMWCarComparer();
