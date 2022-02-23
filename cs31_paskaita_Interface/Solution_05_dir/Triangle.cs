@@ -32,6 +32,6 @@ namespace cs31_paskaita_Interface.Solution_05_dir
             return $"Triangle -> pagal formulę: ({SideA} * {SideB}) / 2 = {(SideA * SideB) / 2})";
         }
 
-        public void WriteToFile() => Solution_06.FileWriter(ToString());
+        public void WriteToFile() => Solution_06.FileWriter(this);
     }
 }

@@ -22,7 +22,7 @@ namespace cs31_paskaita_Interface.Solution_06_dir
             var triangleList = new List<Triangle> { new Triangle(5, 2), new Triangle(1, 2), new Triangle(10, 5), new Triangle(7, 2) };
             triangleList.ForEach(triangle => triangle.WriteToFile());
         }
-        public static void FileWriter(string input)
+        public static void FileWriter<T>(T input)
         {
             var writer = new StreamWriter(coordinates, append: true);
             writer.WriteLine(input);
