@@ -1,0 +1,4 @@
+Triangle -> pagal formulę: (5 * 2) / 2 = 5)
+Triangle -> pagal formulę: (1 * 2) / 2 = 1)
+Triangle -> pagal formulę: (10 * 5) / 2 = 25)
+Triangle -> pagal formulę: (7 * 2) / 2 = 7)

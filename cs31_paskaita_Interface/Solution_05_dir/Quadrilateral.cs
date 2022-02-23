@@ -8,6 +8,8 @@ namespace cs31_paskaita_Interface.Solution_05_dir
 {
     internal class Quadrilateral : IPolygon
     {
+        public float LenghtOfPerpendiCulars { get; set; }
+        public float DiagonalLenght { get; set; }
         // (2) Sukurkite klases Triangle, Quadrilateral, Pentagod, Hexagon ir paveldėkite IPolygon interface’ą.
         // (3) Implementuokite skaičiavimus.
         public float GetArea()
